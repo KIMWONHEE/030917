@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.kim_wonhee.a170309.MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        android:text="1st App"
+        android:textSize="8pt"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="46dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_margin="10dp"
+        android:text="2nd App"
+        android:textSize="8pt"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_margin="10dp"
+        android:text="3rd App"
+        android:textSize="8pt"
+        tools:layout_editor_absoluteY="215dp"
+        tools:layout_editor_absoluteX="88dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_margin="10dp"
+        android:text="4th App"
+        android:textSize="8pt"
+        tools:layout_editor_absoluteY="287dp"
+        tools:layout_editor_absoluteX="103dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_margin="10dp"
+        android:text="5th App"
+        android:textSize="8pt"
+        tools:layout_editor_absoluteY="375dp"
+        tools:layout_editor_absoluteX="148dp" />
+
+</LinearLayout>
